@@ -1,0 +1,294 @@
+section {
+    margin: auto;
+}
+
+div.Main{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: white;
+    width: 1250px;
+    height: 700px;
+    display: flex;
+	align-content: center ;
+	justify-content: flex-start;
+}
+
+div.Content{
+	margin: 0 auto;
+	width: 880px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+fieldset.sideBar {
+	width: 300px;
+	height:60%;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: none;
+	border-right: 1px solid #dddddd;
+	text-align: center;
+	line-height: 50px;
+}
+legend.MyInfo {
+	margin: auto;
+	font-size: 15pt ;
+	font-weight: bold ;
+	
+}
+ul.Menu{
+	margin-top:45px; 
+}
+
+a.Menu{
+	font-size: 12pt;
+	color: #525252;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.Menu:hover {
+	color: darkblue;
+}
+
+table{
+	margin-left: 80px;
+	margin-top: 40px;
+	text-align: left;
+}
+
+table th {
+	width: 200px;
+}
+
+table tr {
+	line-height: 35px;
+}
+
+table.point {
+    width: 780px;
+    margin: auto;
+    border-top: solid 1px #000000;
+}
+
+table.point tbody {
+    font-size: 14px;
+}
+
+table.point, table.point td, table.point th {
+    border-bottom: solid 1px #dddddd;
+    border-collapse: collapse;
+}
+
+table.point, table.point tfoot td {
+    border-bottom: none;
+}
+
+td.count {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+td.point:last-child {
+    font-weight: bold;
+}
+
+.accept ul li {
+    line-height: 28px;
+}
+
+input {
+	height: 22px;
+	padding: 0 5px;
+}
+
+select {
+    height: 26px;
+}
+
+input.mail {
+	width: 110px;
+}
+td.btn{
+	padding-top: 20px;
+	text-align: center;
+	line-height: 70px;
+}
+
+td#chk_point {
+	color: #67a5f5;
+}
+
+input[type="radio"] {
+    height: 12px;
+}
+
+input.birth {
+	width: 50px;
+}
+
+input#date {
+    width: 30px;
+}
+
+input.size3 {
+	width: 40px;
+}
+
+input.size4 {
+    width: 40px;
+}
+
+
+p.title{
+	font-size: 10pt;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+ul.withdraw{
+	margin: auto;
+	margin-left: 40px;
+}
+li.point{
+	color: red;
+	font-weight: bold;
+	margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+span.point {
+	color: blue;
+	font-weight: bold;
+	font-size: 15pt;
+}
+span.point2 {
+	color: red;
+	font-weight: bold;
+}
+
+div.accept{
+	margin: auto;
+	margin-top: 10px;
+	padding: 20px 0 20px 20px;
+	width: 780px;
+	border: 1px #bbbbbb solid;
+	border-radius: 5px;
+}
+
+li.accept{
+	text-align: center;
+	padding-top: 30px;
+}
+
+li{
+	font-size: 10pt;
+}
+
+div.btn{
+	margin-top:20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+input#accept {
+    height: 12px;
+}
+
+input[type="submit"] {
+    width: 70px;
+    height: 35px;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+input.chk_deposit {
+    width: 65px;
+    height: 26px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+input[type="button"] {
+    height: 35px;
+    width: 140px;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+input[type="button"]:hover {
+	background-color: #808080;
+    color: #ffffff;
+}
+
+input.unregister {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+img.empty{
+	margin-top:100px;
+	width: 250px;
+	height: 200px;
+}
+
+td#text_right {
+    text-align: right;
+}
+input.daumPostcode{
+    border: solid 1px #808080;
+    margin-left: 5px;
+    height: 25px;
+    width: 100px;
+    font-size: 12px;
+}
+input.postcode{
+	height: 21px;
+    width: 150px;
+}
+input.address{
+	width: 365px;
+    height: 21px;
+}
+input.detailAddress{
+	width: 365px;
+    height: 21px;
+}
+input.extraAddress {
+	height: 21px;
+    width: 170px;
+    display: block;
+    margin-top: 5px;
+}
+
+input#bHeight {
+    margin-right: 2px;
+}
+
+input#bWeight {
+	margin-right: 2px;
+}

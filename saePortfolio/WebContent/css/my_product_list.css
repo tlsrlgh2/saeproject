@@ -1,0 +1,212 @@
+section {
+    margin: auto;
+}
+
+div.Main{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: white;
+    width: 1250px;
+    height: 700px;
+    display: flex;
+	align-content: center ;
+	justify-content: flex-start;
+}
+
+div.Content{
+	margin: 0 auto;
+	width: 880px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+fieldset.sideBar {
+	width: 300px;
+	height:523px;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: 1px solid grey;
+	text-align: center;
+	line-height: 50px;
+}
+legend.MyInfo {
+	margin: auto;
+	font-size: 15pt ;
+	font-weight: bold ;
+	
+}
+ul.Menu{
+	margin-top:45px; 
+}
+
+a.Menu{
+	font-size: 12pt;
+	color: #525252;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.Menu:hover {
+	color: darkblue;
+}
+
+ul.Menu li#account4 a {
+    color: darkblue;
+}
+
+div.empty{
+	margin: auto;
+	margin-top:150px;
+	width: 700px;
+	height: 400px;
+	text-align: center;
+}
+img.empty{
+	margin-top:100px;
+	width: 150px;
+	height: 150px;
+}
+p.empty{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+h5 {
+    width: 780px;
+    margin: auto;
+    text-align: right;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+table.myProductList{
+	margin: auto;
+	width: 800px;
+	text-align: center;
+}
+
+thead {
+	font-size: 15px;
+}
+
+tbody {
+	font-size: 14px;
+}
+
+tbody tr.myProductList {
+    height: 80px;
+}
+
+table.myProductList, td, th {
+	border-bottom: solid 1px #bbbbbb;
+	border-top: solid 1px #000000;
+	border-collapse: collapse;
+	height: 28px;
+}
+
+th.myProductList:first-child {
+    width: 10%;
+}
+
+th.myProductList:nth-child(3) {
+    width: 30%;
+}
+
+th.myProductList:last-child {
+    width: 9%;
+}
+
+td.myProductList:nth-child(3) {
+    text-align: left;
+    padding-left: 15px;
+}
+
+td.myProductList:first-child {
+    padding: 0;
+}
+
+td.myProductList a {
+    color: #707070;
+    text-decoration: none;
+}
+
+td.myProductList:first-child {
+	font-weight: bold;
+}
+
+td.myProductList:nth-child(2) {
+    width: 80px;
+    padding: 0;
+}
+
+td.myProductList:last-child {
+    padding: 0;
+    text-align: center;
+    color: #707070;
+}
+
+input {
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input#modification {
+    border: none;
+    background-color: #808080;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input#delete {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+img.product {
+    width: 80px;
+    height: 80px;
+    margin: 5px 5px 2px 5px;
+}
+
+table.myProductList, tfoot td {
+    border: none;
+}
+
+a {
+    color: #969696;
+}
+td.page {
+    border-bottom: none;
+}
+td.myProductList:nth-child(3) {
+    text-align: center;
+}
+td[id="oaddress"]{
+	width: 185px;
+}
+td[id="ono"]{
+	width: 50px;
+}
+td[id="pno"]{
+	width: 50px;
+}
+td[id="bid"]{
+	width: 50px;
+}
+td[id="oamount"]{
+	width: 50px;
+}
+td[id="totalprice"]{
+	width: 100px;
+}
+
+

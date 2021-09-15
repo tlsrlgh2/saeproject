@@ -1,0 +1,223 @@
+div.Content{
+    margin: 0 auto;
+    background-color: white;
+    width: 1300px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+div.title{
+	margin:auto;
+	height: 100px;
+}
+
+img.title{
+	width: 1300px;
+	height: 100px;
+}
+
+div.promotion{
+	margin:auto;
+	width: 1300px;
+	text-align: center;
+}
+
+img.mySlides{
+	margin:auto;
+	width: 1300px;
+	height: 500px;
+}
+
+hr.top{
+	margin-top:20px;
+	border: black solid 2px;
+}
+
+hr.bottom{
+	border: black solid 2px;
+}	
+
+div.algin {
+	
+}
+ul.category{	
+	width: 300px;
+    display: flex;
+    float: right;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+ul.category a {
+    text-decoration: none;
+    color: #707070;
+}
+
+ul.category a:hover {
+    text-decoration: underline;
+}
+
+ul.category a.selected {
+    color: #000000;
+    font-weight: bold;
+}
+
+div.productList{
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+
+table.E-StoreList{
+	margin: auto;
+	margin-top: 40px;
+	width:1200px;
+	text-align: center;
+}
+
+th.E-StoreList h5 {
+    float: left;
+}
+
+table.E-StoreList, td, th {
+	border-bottom: solid 1px #e0e0e0;
+	border-collapse: collapse;
+}
+
+table.E-StoreList, tfoot td {
+    border-bottom: none;
+}
+
+table.detail, td, th {
+	border-bottom: solid 1px #e0e0e0;
+	border-collapse: collapse;
+	height: 28px;
+}
+
+table.detail {
+	width: 100%;
+	line-height: 40px;
+	border-bottom: none;
+}
+
+table.detail tr:nth-child(3) {
+    line-height: 60px;
+}
+
+table.detail tr:last-child td {
+    border: none;
+    padding-top: 15px;
+}
+
+tr.buy_item td:first-child {
+    width: 200px;
+}
+
+tr.buy_item td:nth-child(2) {
+    width: 50px;
+}
+
+tr.E-StoreList {
+    height: 100px;
+    font-size: 16px;
+}
+
+th.E-StoreList:first-child {
+    width: 10%;
+}
+
+th.E-StoreList:last-child {
+    width: 20%;
+}
+
+th.E-StoreList:nth-child(3) {
+    width: 40%;
+}
+
+th.E-StoreList:last-child {
+    width: 10%;
+}
+
+td.E-StoreList {
+    
+}
+
+td.E-StoreList:first-child {
+    padding: 0;
+    font-weight: bold;
+}
+
+td.E-StoreList a {
+    color: #565656;
+    text-decoration: none;
+}
+
+td.E-StoreList:nth-child(3) {
+    text-align: left;
+}
+
+td.E-StoreList:last-child {
+    padding: 0;
+    text-align: center;
+}
+
+td.p_no p {
+	width: 80px;
+    display: inline-block;
+}
+
+tfoot tr {
+	line-height: 60px;
+}
+
+input.num {
+	width: 100px;
+	height: 25px;
+	border: solid 1px #bdbdbd;
+}
+
+p.product_num {
+    font-size: 14px;
+    color: #808080;
+}
+
+p.amount {
+    width: 120px;
+    float: right;
+    text-align: right;
+    font-size: 14px;
+}
+
+p.accumulate_sale {
+    text-align: right;
+    font-size: 14px;
+}
+
+div.empty{
+	margin: auto;
+	margin-top:60px;
+	width: 600px;
+	height: 400px;
+	text-align: center;
+}
+
+.empty p {
+    font-size: 14px;
+    color: #757575;
+}
+
+img.productEmp{
+	width: 180px;
+	height: 180px;
+	margin-top: 100px;
+}
+
+img.product{
+	width: 180px;
+	height: 180px;
+	margin-top: 4px;
+}

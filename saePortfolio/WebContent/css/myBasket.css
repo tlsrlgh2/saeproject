@@ -1,0 +1,104 @@
+div.Main{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+}
+
+fieldset {
+	margin: auto;
+	width: 1000px;
+	border: none;
+}
+
+legend {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+table.mybasket{
+	margin: auto;
+	margin-top:20px;
+	margin-bottom: 100px;
+	width: 1000px;
+	text-align: center;
+}
+
+table, td, th {
+    border-bottom: solid 1px #eaeaea;
+    border-collapse: collapse;
+}
+
+table {
+	border-top: solid 1px black;
+    border-bottom: none;
+}
+
+div.title{
+	margin-top:40px;
+	font-size: 14px;
+}
+
+div.empty{
+	margin: auto;
+	margin-top:40px;
+	margin-bottom: 100px;
+	border: 2px gray solid;
+	width: 1000px;
+	text-align: center;
+}
+img.empty{
+	margin-top:20px;
+	width: 150px;
+	height: 150px;
+}
+p.empty{
+	margin-bottom: 20px;
+}
+
+img.pImg{
+	width: 80px;
+	height: 80px;
+}
+
+input.pAmount{
+	width: 40px;
+	text-align: center;
+}
+
+
+td.totalPrice{
+	background-color: black;
+	color: white;
+	height: 100px;
+	font-size: 16pt;
+	font-weight: bold;
+}
+td.bp{
+	text-align: right;
+}
+td.btn{
+	text-align: right;
+}
+
+span[id="basketPrice"]{
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+    padding: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 1px #000000;
+    cursor: pointer;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+input[type=checkbox] {
+	width:25px;
+	height:25px;
+	
+	}

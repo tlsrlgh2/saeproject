@@ -1,0 +1,216 @@
+section {
+    margin: auto;
+}
+
+div.Main{
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+    height: 700px;
+    display: flex;
+	align-content: center ;
+	justify-content: flex-start;
+}
+
+div.Content{
+	margin: 0 auto;
+	width: 1000px;
+	height:500px;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+fieldset.sideBar {
+	margin-top: -23px;
+	width: 300px;
+	height:523px;
+	border: 4px solid grey;
+	text-align: center;
+	line-height: 50px;
+}
+legend.MyInfo {
+	margin: auto;
+	font-size: 15pt ;
+	font-weight: bold ;
+	
+}
+ul.Menu{
+	margin-top:45px; 
+}
+
+a.Menu{
+	font-size: 12pt;
+	color: #525252;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.Menu:hover {
+	color: darkblue;
+}
+
+table{
+	margin: auto;
+	margin-top: 10px;
+	text-align: left;
+	width: 1000px;
+	font-size: 14px;
+}
+
+table.memberList, td, th {
+    border-top: solid 1px #eaeaea;
+    border-collapse: collapse;
+}
+
+table.memberList, th {
+    border-top: solid 1px #757575;
+}
+
+table tr {
+	line-height: 34px;
+}
+
+input {
+	height: 22px;
+	padding: 0 5px;
+}
+
+select {
+    height: 26px;
+}
+
+input.mail {
+	width: 110px;
+}
+td.btn{
+	text-align: center;
+	line-height: 70px;
+}
+input[type="radio"] {
+    height: 12px;
+}
+
+input.birth {
+	width: 50px;
+}
+input.size3 {
+	width: 70px;
+}
+
+
+p.title{
+	font-size: 10pt;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+ul.withdraw{
+	margin: auto;
+	margin-left: 40px;
+}
+li.point{
+	color: red;
+	font-weight: bold;
+}
+
+span.point {
+	color: blue;
+	font-weight: bold;
+	font-size: 15pt;
+}
+span.point2 {
+	color: red;
+	font-weight: bold;
+}
+
+div.accept{
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	width: 780px;
+	border: 1px black solid;
+}
+
+li.accept{
+	text-align: center;
+	padding-top: 50px;
+}
+
+li{
+	font-size: 10pt;
+}
+
+div.btn{
+	margin-top:15px;
+	text-align: center;
+}
+
+input#accept {
+    height: 12px;
+}
+
+input[type="submit"] {
+    width: 70px;
+    height: 35px;
+    background-color: #ffffff;
+    border: solid 2px #808080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+input[type="submit"]:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+input[type="button"] {
+    height: 35px;
+    width: 140px;
+    background-color: #ffffff;
+    border: solid 2px #808080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+input[type="button"]:hover {
+	background-color: #808080;
+    color: #ffffff;
+}
+
+input.memOut {
+	border: none;
+	background-color: #000000;
+	color: #ffffff;
+	width: 70px;
+	height: 28px;
+}
+
+input.memOut:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+div.empty{
+	margin: auto;
+	text-align: center;
+}
+
+img.empty{
+	margin:auto;
+	margin-top:100px;
+	width: 200px;
+	height: 200px;
+}
+p.empty{
+	text-align: center;
+	font-weight: bold;
+}
+form#radio {
+		text-align: right; 
+	}

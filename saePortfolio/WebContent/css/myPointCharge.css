@@ -1,0 +1,137 @@
+div.Main{
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+    height: 700px;
+}
+
+div.Content{
+	margin: auto;
+	width:800px;
+	display: table;
+}
+h2{
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    font-size: 20pt;
+}
+
+table.point {
+	margin: auto;
+	margin-top:40px;
+	width: 600px;
+	height: 200px;
+}
+
+table.point input {
+    height: 25px;
+    padding-left: 5px;
+    width: 70px;
+}
+
+table.point td:first-child {
+    width: 200px;
+    padding: 40px 10px 40px 60px;
+}
+
+table.point, td {
+	border-bottom: solid 1px #dedede;
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+table.point, tr:last-child td {
+    border-bottom: none;
+}
+
+div.btn {
+	margin: auto;
+	margin-top:40px;
+	width: 600px;
+	text-align: center;
+}
+
+.btn input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: #000000;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+/*留덉씠�룷�씤�듃 異⑹쟾�슂泥� �셿猷� �럹�씠吏� css*/
+
+div.cMain{
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+    height: 700px;
+    text-algin: center;
+}
+
+div.complete{
+	margin: auto;
+	margin-top: 70px;
+	width: 700px;
+	text-align: center;
+}
+
+input.cbtn{
+	width: 60%;	
+	height: 50px;
+	font-size: 13pt;
+	cursor: pointer;
+}
+
+input#cbtn1 {
+	border: none;
+	background-color: #909090;
+	color: #ffffff;
+}
+
+input#cbtn2 {
+	margin-top: 10px;
+	border: none;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+input#point1 {
+    border: solid 1px #bbbbbb;
+}
+
+select#point2 {
+    height: 27px;
+    padding-left: 2px;
+    border: solid 1px #bbbbbb;
+}
+
+select.select_bank {
+    height: 27px;
+    padding: 2px;
+    border: solid 1px #bbbbbb;
+}
+
+div.button{
+	margin-top: 200px;
+}
+
+p{
+	font-size: 22pt;
+	text-algin: center;
+}
+
+p.tsize {
+	font-size: 16px;
+	color: #909090;
+	margin-top: 20px;
+}

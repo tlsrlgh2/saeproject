@@ -1,0 +1,7 @@
+ul.mania_list li:last-child a {
+    color: #000000;
+}
+
+ol.health_list li:last-child a {
+	color: #000000;
+}

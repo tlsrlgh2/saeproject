@@ -1,0 +1,84 @@
+div.Main{
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+    height: 980px;
+}
+
+div.Content{
+	margin: auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    width: 1000px;
+    display: table;
+    border: none; 
+}
+h2{
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    font-size: 20pt;
+}
+
+div.img{
+	text-align: center;
+	border: #808080 1px solid;
+	width: 800px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+table.resist{
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+}
+
+th{
+	text-align: center;
+	line-height: 40px;
+	width: 20%;
+}
+
+td {
+	width: 80%;
+}
+
+input.inputS {
+    padding: 5px;
+    border: solid 1px #bbbbbb;
+}
+
+textarea {
+    padding: 5px;
+    width: 98%;
+    border: solid 1px #bbbbbb;
+}
+
+img[id="preview"]{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	
+}
+
+div.btn{
+	margin: auto;
+	margin-top:10px;
+	width:800px;
+	text-align: right;
+}
+
+input[type="submit"] {
+    padding: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 1px #000000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+

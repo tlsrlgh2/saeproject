@@ -1,0 +1,105 @@
+
+div.Content{
+    margin: 20px auto;
+    background-color: white;
+    width: 1300px;
+    height: 50px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+div.view_content{
+    margin: 0 auto;
+    background-color: white;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+table.view_table{
+	text-align: center;
+	margin-top: 100PX;
+	border: black solid 3px;
+	width: 900px;
+	height: 300px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+ol > li#list:first-child {
+	margin: 0;
+}
+
+ol > li#list {
+	float: left;
+	padding: 10px;
+	margin-left: 60px;
+}
+
+ol.health_list a {
+	color: #717171;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol.health_list li a:hover {
+	color: #000000;
+}
+
+div.view {
+    width: 1300px;
+    background-color: #ffffff;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.trainer {
+    width: 700px;
+    margin: auto;
+}
+
+.trainer h2 {
+	display: inline-block;
+    padding: 10px 20px;
+    margin: 30px 0 20px 0;
+    font-size: 22px;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.trainer img {
+    width: 700px;
+    display: flex;
+    margin: auto;
+}
+
+.trainer li:last-child {
+    background-color: #292929;
+    color: #ffffff;
+}
+
+.trainer p {
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trainer p:first-child {
+    padding-top: 8px;
+}
+
+.trainer p:last-child {
+    padding-bottom: 8px;
+}
+
+
+
+
+
+

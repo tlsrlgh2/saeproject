@@ -1,0 +1,74 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-content:center;
+  justify-content:center;
+  position: relative;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu > li {
+  float: left;
+  position: relative;
+}
+
+#main-menu > li > a {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 14px 36px;
+  border-right: 1px solid rgba(0,0,0,0.15);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#main-menu > li:nth-child(1) > a {
+  border-left: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu {
+  position: absolute;
+  background: black;
+  color: #ffffff;
+  width : 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+  font-size: 12px;
+  border-top: 1px white solid;
+}
+
+#sub-menu > li {
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  cursor: pointer;
+}
+
+#sub-menu > li:last-child {
+    border: none;
+}
+
+#sub-menu > li:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+#sub-menu > li >  a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+}

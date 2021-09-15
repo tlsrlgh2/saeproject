@@ -1,0 +1,436 @@
+	div.Content{
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+div.mainPicture{
+    width: 930px;
+}
+
+div.mains{
+    margin: auto;
+    width: 840px;
+    height: 100%;
+}
+
+.main_img1 {
+    width: 100%;
+    height: 400px;
+    background-color: #dddddd;
+    margin-top: 40px;
+}
+
+div.main_img1 img {
+    position: absolute;
+    /* z-index: 2; */
+}
+
+.left_btn {
+    width: 45px;
+    height: 60px;
+    display: inline-block;
+    margin-top: 170px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.right_btn {
+    width: 45px;
+    height: 60px;
+    display: inline-block;
+    float: right;
+    margin-top: 170px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img.hover_btn {
+    opacity: 0;
+    transition: 0.2s;
+}
+  
+img.hover_btn:hover {
+    opacity: 1;
+}
+
+div.movie {
+    margin-top: 30px;
+}
+
+div.movie_box {
+    width: 100%;
+    height: 400px;
+    background-color: #b6b6b6;
+    margin-top: 20px;
+}
+
+iframe {
+    border: none;
+}
+
+.hot_item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 410px;
+    height: 500px;
+    border: solid 1px #e2e2e2;
+    display: inline-block;
+}
+
+fieldset.best {
+    border: none;    
+    width: 350px;
+    height: 100%;
+    margin: auto;
+}
+
+fieldset.best h2 {
+	line-height: 50px;
+}
+
+fieldset.best ul li {
+    text-align: center;
+    line-height: 25px;
+}
+
+li.B_img {
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    background-color: #bbbbbb;
+}
+
+fieldset.best ul li.p_name {
+	font-size: 18px;
+	font-weight: bold;
+	height: 55px;
+	margin-top: 16px;
+}
+
+fieldset.best ul li.p_price {
+    font-size: 15px;
+    color: #757575;
+}
+
+fieldset.best ul li.p_sales {
+    font-size: 15px;
+    color: #757575;
+}
+
+fieldset.best ul li.goBuy {
+	margin-top: 16px;
+}
+
+li.goBuy input {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 6px;
+    width: 80%;
+    cursor: pointer;
+}
+
+ul.hot_item2 {
+    margin-top: 50px;
+    width: 420px;
+    height: 500px;
+    float: right;
+    font-size: 14px;
+}
+
+legend#main_freeboard {
+    line-height: 35px;
+    font-weight: bold;
+}
+
+table, #empty td {
+    border-top: none;
+}
+
+tr#empty {
+    text-align: center;
+}
+
+img.empty {
+    width: 100px;
+}
+
+.empty_error p {
+    font-size: 14px;
+    color: #757575;
+}
+
+fieldset#main_freeboard {
+    border: none;
+    width: 90%;
+    margin: auto;
+}
+
+fieldset#main_freeboard table {
+    width: 100%;
+    height: 210px;
+}
+
+table, td, th {
+    border-top: solid 1px #eaeaea;
+    border-collapse: collapse;
+}
+
+table, th {
+    border-top: solid 1px #bbbbbb;
+}
+
+th#main_freeboard {
+    font-size: 15px;
+    text-align: center;
+}
+
+th#main_freeboard:first-child {
+    width: 56%;
+}
+
+tr#bottom td {
+    text-align: center;
+}
+
+tr#bottom td:first-child {
+    text-align: left;
+    padding-left: 10px;
+}
+
+tr#bottom td:first-child {
+    color: #000000;
+    font-size: 12px;
+}
+
+tr#bottom td {
+    color: #adadad;
+}
+
+td#main_freeboard a {
+    color: #000000;
+    text-decoration: none;
+}
+
+p.empty {
+    font-size: 14px;
+    color: #757575;
+}
+
+td#main_freeboard a:hover {
+	text-decoration: underline;
+}
+
+a#main_freeboard {
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+ul.hot_item2 li {
+    height: 245px;
+    border-top: solid 1px #f9f9f9;
+    border-bottom: solid 1px #f9f9f9;
+    background-color: #f9f9f9;
+}
+
+li#tem2 {
+    margin-top: 8px;
+}
+
+div.start_btn {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(../img/movie_start.png);
+    cursor: pointer;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.start_btn:hover {
+    background: url(../img/movie_start_hover.png);
+}
+
+div.sideBar{
+    width: 370px;
+}
+
+div.loginBox{
+    margin-top: 50px;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    border: solid #404040 5px;
+    width: 300px;
+    height: 100px;
+}
+
+div.loginBox ul.login{
+    height: 100%;
+}
+
+div.loginBox ul.login > li {
+    height: 20%;
+}
+
+div.loginBox ul.login > li:nth-child(2) {
+    height: 60%;
+}
+
+
+p.loginTitle{
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+}
+
+div.lgbox {
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+img.loginBox{
+    text-align: center;
+    height: 30px;
+}
+
+p.joinBox {
+    float: right;
+    margin-top: 1px;
+}
+
+img.joinBox{
+    position: relative;
+    top: 4px;
+}
+
+a.joinBox{
+    font-size: 8pt;
+    color: black;
+    text-decoration: none;
+}
+
+div.idbox {
+    font-size: 14px;
+}
+
+div.idbox p {
+    display: inline-block;
+}
+
+div.idbox > p:first-child {
+    width: 100%;
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+.myPoint {
+    width: 210px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.myPoint li {
+	display: inline-block;
+}
+
+.myPoint li:first-child {
+    font-size: 13px;
+}
+
+li.point {
+    font-weight: bold;
+}
+
+li.coin_fillin {
+    margin-left: 8px;
+    position: absolute;
+}
+
+.fillin {
+    cursor: pointer;
+}
+
+div.idbox > img {
+    width: 60px;
+    float: left;
+    margin-top: 4px;
+}
+
+div.cm_kg p:first-child {
+    margin-left: 20px;
+}
+div.cm_kg {
+	line-height: 40px;
+	font-size: 14px
+}
+
+.idbox input[type="button"] {
+    margin-top: 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 3px 13px;
+    cursor: pointer;
+}
+
+ul.login a.my_page {
+    float: right;
+    color: #777777;
+}
+
+ul.login a.my_page:hover {
+    color: #000000;
+}
+
+p.joinBox input {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 3px 13px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 13px;
+}
+
+a#find_id_pw {
+	cursor: pointer;
+	
+}
+
+img.product {
+    width: 70px;
+}
+
+div.empty_error {
+    text-align: center;
+}
+
+div.empty_error {
+    border: none;    
+    padding-top: 180px;
+    width: 350px;
+    margin: auto;
+}
+
+
+

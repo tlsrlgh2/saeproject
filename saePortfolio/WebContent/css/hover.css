@@ -1,0 +1,14 @@
+.bt:hover {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-color: gray;
+}
+input[type=button]:hover {
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-color: gray;
+}

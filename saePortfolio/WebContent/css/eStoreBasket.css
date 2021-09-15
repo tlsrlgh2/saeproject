@@ -1,0 +1,77 @@
+section {
+	color: #ffffff;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    padding: 50px 0;
+    padding-top: 80px;
+}
+fieldset {
+	margin: auto;
+	border: none;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	
+}
+
+legend {
+	margin: auto;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	line-height: 100px;
+	color: white;
+}
+
+p {
+	margin-bottom: 50px;
+}
+
+body#find {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/chk_back_img.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+input.check {
+	font-size: 16px;
+	width: 200px;
+	height: 45px;
+	background-color: #000000;
+	color: #ffffff;
+	border: solid 1px #ffffff;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+input.check:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+div.Content{
+   margin: auto;
+}
+
+legend.Content{
+   text-align: center;
+}
+
+fieldset.Content {
+   margin: auto;
+}
+
+section.width {
+	color: #ffffff;
+    height: 300px;
+    width:100%;
+    margin: auto;
+    padding: 50px 0;
+    padding-top: 80px;
+}

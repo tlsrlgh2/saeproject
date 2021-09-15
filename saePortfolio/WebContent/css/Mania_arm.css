@@ -1,0 +1,7 @@
+ul.mania_list li:nth-child(4) a {
+    color: #000000;
+}
+
+ol.health_list li:nth-child(4) a {
+	color: #000000;
+}

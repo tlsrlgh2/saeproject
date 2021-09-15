@@ -1,0 +1,4 @@
+ul.Menu li:first-child a {
+    color: darkblue;
+    font-weight: bold;
+}

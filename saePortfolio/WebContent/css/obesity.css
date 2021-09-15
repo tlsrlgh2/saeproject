@@ -1,0 +1,136 @@
+div.Content{
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 1300px;
+    height: 100%; 
+}
+
+div.checkBox{
+	margin: auto;
+	padding-bottom: 50px;
+	text-align: center;
+	display: table;
+}
+h2:first-child {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    padding-top: 50px;
+}
+h2{
+	text-align: center;
+	padding-top: 20px;
+}
+table.Content{
+	margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+}
+
+table.Content th {
+    background-color: #afb0bf;
+    color: #ffffff;
+}
+
+table.Content, td, th {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+}
+
+.checkBox p {
+    margin-bottom: 5px;
+}
+
+.body_chk {
+	line-height: 30px;
+	float: left;
+	margin-right: 5px
+}
+
+.body_chk span {
+    width: 52px;
+    display: inline-block;
+    text-align: right;
+}
+
+.body_chk input {
+    width: 30px;
+    text-align: right;
+    border: solid 1px #999999;
+    padding: 2px 5px;
+    margin-right: 2px;
+}
+
+input[type="submit"] {
+	margin-left: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 28px;
+    cursor: pointer;
+}
+
+
+div.resultBox{
+	margin: auto;
+	border: 1px solid black;
+		
+}
+
+hr{
+	margin: auto;
+	width: 800px;
+	border: solid 3px #d0d0d0;
+}
+
+div.checkBox2{
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 100px;
+	text-align: center;	
+}
+
+img.bmi{
+	margin: auto;
+	text-align: center;
+	width: 100px;
+	height: 150px;
+}
+
+img.food{
+	margin: auto;
+	width: 150px;
+	height: 150px; 
+}
+
+fieldset {
+	margin: auto;
+	width: 800px;
+	border: 2px black solid;
+}
+
+fieldset ul {
+    margin: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+table {
+	margin: auto;
+}
+ul{
+	text-align: left;
+}	
+
+legend {
+	font-size: 18pt;
+	font-weight: bold;
+}	

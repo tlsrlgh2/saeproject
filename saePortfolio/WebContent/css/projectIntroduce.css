@@ -1,0 +1,180 @@
+body {
+    background-color: #000;
+}
+
+p {
+    cursor: context-menu;
+}
+
+h2 {
+    cursor: context-menu;
+}
+
+div.backImg {
+	height: 100vh;
+    width: 100%;
+    margin-top: -140px;
+    background: url(../img/fix_back.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+div.titlePicture {
+    background: url(../img/gray_back.jpg);
+    background-size: cover;
+}
+
+div.titlePicture h2 {
+	color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+    background-color: #0000006b;
+}
+
+div.project_purpose {
+	height: 1080px;
+	background-color: #191f1ff0;
+}
+
+div.titlePicture2 {
+    background: url(../img/oneWord_back.jpg);
+    background-size: cover;
+}
+
+div.titlePicture2 h2 {
+	color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+    background-color: #0a181bc2;
+}
+
+div.one_word {
+	height: 800px;
+	background-color: #141f1f;
+}
+
+.creater {
+    width: 1300px;
+    height: 600px;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.creater > div {
+	width: 30%;
+	height: 600px;
+	background-color: #294441;
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.creater > div:hover {
+	margin-top: -50px;
+}
+
+li.photo {
+    width: 300px;
+    height: 300px;
+  	border: solid 3px #1a3532;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+li.part {
+    text-align: center;
+    margin-top: 30px;
+}
+
+li.word {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.hover_action {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+}
+
+div.hover_action p {
+    color: #00000000;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+div.hover_action p:hover {
+    color: #ffffff;
+    background-color: #000000a8;
+}
+
+div.hover_action p:hover {
+	
+}
+
+#photo1 {
+	background: url("../img/Junpyo.jpeg");
+}
+#photo2 {
+	background: url("../img/giho.jpeg");
+}
+#photo3 {
+	background: url("../img/jeongwoo.png");
+}
+
+
+img.logo{
+	width: 300px;
+	height: 90px;
+}
+
+div.cont{
+	margin: auto;
+	width:900px;
+	height: 900px;
+}
+
+div.img{
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+}
+
+div.img p {
+	margin-top: 40px;
+}
+
+div.introduce{
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+p.introduce{
+	font-size: 13pt;
+	font-weight: bold;
+	color: white;
+}
+span{
+	color: red;
+}	
+
+
+
+
+
+
+
+
+
+
+

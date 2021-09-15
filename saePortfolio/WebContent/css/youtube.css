@@ -1,0 +1,69 @@
+div.Content{
+    margin: 20px auto;
+    background-color: white;
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.title{
+	width : 1000px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+img.title{
+	margin: 0 auto;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+}
+div.Content2{
+    margin: 0 auto;
+    background-color: white;
+    width: 1300px;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+table.youtube{
+	text-align: left;
+	margin-top: 50PX;
+	width: 800px;
+	height: 500px;
+}
+
+tr {
+    position: relative;
+}
+
+p.lank {
+	margin: 10px 0;
+}
+
+img.img {
+	float: left;
+	border: solid 1px #dcdcdc;
+    margin-right: 10px;
+}
+
+p.you_name {
+	margin-top: 2px;
+}
+
+input[type="button"] {
+    border: none;
+    background: #e7161b;
+    color: #ffffff;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+	position: absolute;
+    bottom: 8px;
+}

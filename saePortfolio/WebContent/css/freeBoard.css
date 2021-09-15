@@ -1,0 +1,341 @@
+div.Main{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+	height: 700px;
+}
+
+div.Main2{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
+    width: 1300px;
+}
+
+fieldset {
+	margin: auto;
+	width: 1000px;
+	height:500px;
+	border: none;
+}
+
+fieldset.boardDetail {
+	margin: auto;
+    width: 1000px;
+    height: 100%;
+    padding-bottom: 100px;
+    border: none;
+}
+
+legend {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+div.title{
+	margin-top:40px;
+	font-size: 14px;
+}
+
+div#allview {
+    margin-top: 15px;
+}
+
+table.boardList{
+	margin: auto;
+	margin-top:20px;
+	width: 1000px;
+	text-align: center;
+}
+
+table.boardList th.details {
+	width: 15%
+}
+
+table, td, th {
+    border-bottom: solid 1px #eaeaea;
+    border-collapse: collapse;
+}
+
+table {
+	border-top: solid 1px #757575;
+    border-bottom: none;
+}
+
+thead {
+	font-size: 15px;
+}
+
+tbody {
+	font-size: 14px;
+}
+
+tbody td > a {
+	float: left;
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+
+tbody td > a:hover {
+	text-decoration: underline;
+}
+
+td.wirterdata {
+    color: #000000;
+    text-align: left;
+}
+
+tbody td.changeColor {
+    color: #adadad;
+}
+
+tr{
+	height: 35px;
+}
+td.page{
+	border:  white;
+}
+
+th.no{
+	width: 5%;
+}
+th.category{
+	width: 15%;
+}
+th.title{
+	width: 45%;
+}
+th.writer{
+	width: 10%;
+}
+th.date{
+	width: 25%;
+}
+
+
+td.board_btn{
+	text-align: right; 
+	border: white;
+}
+
+div.board_btn{
+	margin: auto;
+	margin-top: 10px;
+	width: 1000px;
+	text-align: right;
+}
+
+input.move_btn {
+    margin-top: 10px;
+}
+
+input[type="button"] {
+    padding: 8px;
+    background-color: #808080;
+    color: #ffffff;
+    border: solid 1px #808080;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    padding: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 1px #000000;
+    cursor: pointer;
+}
+
+
+table.boardWrite {
+	width: 1000px;
+	height: 400px;
+}
+
+table.boardWrite tr {
+    height: 50px;
+}
+
+input.writer{
+	width: 99%;
+    height: 24px;
+    padding: 3px;
+    border: solid 1px #bbbbbb;
+}
+
+table.boardWrite textarea {
+	width: 99%;
+	height: 274px;
+	padding: 3px;
+	border: solid 1px #bbbbbb;
+}
+
+p.content{
+	width: 99%;
+    height: 200px;
+    border: 1px #bbbbbb solid;
+    padding: 3px;
+    margin: 8px 0;
+    text-align: left;
+}
+
+div.comment{
+	margin: auto;
+	margin-top: 20px;
+	width: 1000px;
+	line-height:40px;
+}
+
+.comment a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.comment a:hover {
+    text-decoration: underline;
+}
+
+span{
+	margin-left: 10px;
+}
+
+ul.comment li:last-child {
+    text-align: right;
+}
+
+input[id="commentWriter"]{
+	width: 100px;
+	border: none;
+    font-size: 15px;
+}
+input[id="commentPw"]{
+	width: 50px;
+}
+input[id="comment"]{
+	width: 98.6%;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+div.commentList{
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px 0;
+	width: 1000px;
+	border-top: 1px gray solid;
+	text-align: center;
+}
+img.noComment{
+	width: 100px;
+	height: 100px;
+}
+table.commentList {
+	margin: auto;
+	border: none;
+	width: 100%;
+}
+
+td.cName{
+	width: 80px;
+}
+td.cContent{
+	text-align:left;
+	width: 350px;
+}
+th.cPw{
+	width: 115px;
+}
+td.cPw{
+	text-align:center;
+}
+
+input.dlt_btn {
+    padding: 0;
+    width: 60px;
+    height: 28px;
+    border-radius: 50px;
+    background-color: #808080;
+    border: none;
+}
+
+input.back_b {
+    background-color: #000000;
+    border: solid 1px #000000;
+}
+
+input[id="cPwChk"] {
+	width: 35px;
+}
+
+table.boardCorrect{
+	margin: auto;
+	margin-top:40px;
+	width: 1000px;
+	height: 550px;
+}
+
+table.boardCorrect tr {
+    height: 50px;
+}
+
+input.correct{
+	width: 99%;
+    height: 24px;
+    padding: 3px;
+    border: solid 1px #bbbbbb;
+}	
+
+table.boardCorrect textarea {
+    width: 99%;
+    height: 274px;
+    padding: 3px;
+    border: solid 1px #bbbbbb;
+}
+
+
+div.empty{
+	margin: auto;
+	margin-top:40px;
+	border: 2px gray solid;
+	width: 1000px;
+	text-align: center;
+}
+img.empty{
+	margin-top:20px;
+	width: 150px;
+	height: 100px;
+}
+p.empty{
+	margin-bottom: 20px;
+}
+
+td.page{
+	border:  white;
+}
+
+td.page a {
+    color: #969696;
+}
+
+form#search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+select#search_select {
+    height: 28px;
+    width: 130px;
+}
+
+input#search_text {
+    height: 25px;
+    width: 250px;
+}
+
+input.select {
+    width: 80px;
+    padding: 6px;
+}

@@ -1,0 +1,172 @@
+section {
+    color: #ffffff;
+    width: 60%;
+    height: 750px;
+    margin: auto;
+    padding: 50px 0;
+    padding-top: 80px;
+}
+
+div#join_form {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+form#jform {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+table.join {
+	color: #ffffff;
+    margin: auto;
+    width: 700px;
+}
+
+form#jform table th {
+    text-align: left;
+    width: 300px;
+    vertical-align: top;
+}
+
+th, td {
+    line-height: 35px;
+}
+
+input.code_size {
+    height: 25px;
+}
+
+input.size {
+    width: 365px;
+    height: 25px;
+}
+
+select.size {
+    height: 25px;
+}
+
+input.size2 {
+    height: 21px;
+    width: 45px;
+}
+
+input.size3 {
+    height: 21px;
+    width: 35px
+}
+
+input.size4 {
+    height: 21px;
+}
+
+input#email1 {
+    width: 120px;
+}
+
+input#email2 {
+    width: 76px;
+}
+
+select#email3 {
+    height: 25px;
+}
+
+select#phoneNum1 {
+    height: 25px;
+}
+
+input#phoneNum2 {
+    width: 56px;
+}
+
+input#phoneNum3 {
+    width: 56px;
+}
+
+input#stature {
+    height: 21px;
+    width: 37px;
+}
+
+input#weight {
+    height: 21px;
+    width: 37px;
+}
+
+input.idbtn {
+	cursor: pointer;
+}
+
+input#idbtn{
+    padding: 3px;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-left: 5px;
+}
+p#msg {
+    font-size: 13px;
+    line-height: 50px;
+}
+
+ul.btn {
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul.btn li {
+    float: none;
+    padding: 0;
+    margin: 0 5px;
+    margin-top: 30px;
+}
+
+ul.btn li input {
+    width: 90px;
+    height: 40px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input.daumPostcode {
+	cursor: pointer;
+}
+
+input.daumPostcode{
+    padding: 3px;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-left: 5px;
+}
+input.postcode{
+	height: 24px;
+    width: 148px;
+    padding-left: 2px;
+}
+input.address{
+	width: 363px;
+    height: 24px;
+    padding-left: 2px;
+}
+input.detailAddress{
+	width: 363px;
+    height: 24px;
+    padding-left: 2px;
+}
+input.extraAddress {
+	height: 24px;
+    width: 148px;
+    padding-left: 2px;
+}
